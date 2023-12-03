@@ -1,0 +1,42 @@
+.image-slider {
+  position: relative;
+}
+
+.image-slider img {
+  width: 100%;
+  display: none;
+}
+
+.image-slider img.active {
+  display: block; 
+}
+
+
+
+.image-slider {
+    position: relative;
+    max-width: 700px; 
+    margin: auto;
+  }
+  
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 2;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  

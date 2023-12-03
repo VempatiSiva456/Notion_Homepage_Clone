@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background: #ffffff;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    position: relative;
+    margin-right: auto;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin-left: 1rem;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .caret {
+    margin-left: 0.5rem;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    background-color: #fff;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f6f6f6;
+  }
+
+.navbar-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-button.demo {
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .navbar-button.login {
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .navbar-button.get-free {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .navbar-button.active {
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+  
+  

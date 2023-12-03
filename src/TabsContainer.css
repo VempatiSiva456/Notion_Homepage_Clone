@@ -1,0 +1,35 @@
+
+.tabs-container {
+  position: relative;
+  width: 500px;
+  height: 500px; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  margin-bottom: 30px;
+}
+
+.tabs-toggle {
+  display: flex;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7); 
+  border-radius: 20px;
+  margin-bottom: 20px; 
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.toggle-btn:hover,
+.toggle-btn.active {
+  background-color: #ddd;
+  transform: translateY(-2px); 
+}
